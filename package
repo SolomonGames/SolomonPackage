@@ -1,0 +1,24 @@
+{
+  "name": "com.SolomonGames.Package",
+  "version": "1.0.0",
+  "displayName": "Solomon Package",
+  "description": "Reusable tools and utilities",
+  "unity": "2020.3",
+  "unityRelease": "30f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "dependencies": {
+
+ },
+ "keywords": [
+    "utility",
+    "solomon",
+    "tools"
+  ],
+  "author": {
+    "name": "Solomon",
+    "email": "unity@example.com",
+    "url": "https://www.unity3d.com"
+  }
+}
