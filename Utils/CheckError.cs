@@ -39,4 +39,15 @@ public class CheckError /*: MonoBehaviour*/
 
         return false;
     }
+
+    public static bool CheckComponentIsNull(Component comp, string compName, string objName, Object context, [Optional] string optMessage)
+    {
+        if (comp == null)
+        {
+            Debug.LogError($"Component {compName} not found in game obj {objName} in class {context.GetType()} {optMessage}", context);
+            return true;
+        }
+
+        return false;
+    }
 }
